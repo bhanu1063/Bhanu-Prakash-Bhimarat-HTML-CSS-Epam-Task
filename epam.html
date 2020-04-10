@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>EPAM Sign In</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<style>
+    .task{
+align:relative;
+       border: 1px solid lightskyblue;
+      margin-top:100px;
+      margin-right:450px;  
+     margin-left:450px;
+     margin-bottom: 1000px;
+box-shadow: 0px 0px 2px 0px;
+    }
+.key{
+    box-shadow: 0px 0px 2px 0px;
+}
+    .header{
+        
+        background-color:#5bc0de;
+        text-align:center;
+         color:white;
+         font-weight: normal;
+        padding: 10px 20px 10px 5px;
+    }
+   .form-group
+{
+padding: 40px 30px 0px 30px;
+}
+
+.form-group2
+{
+padding: 0px 30px 30px 30px;
+
+}
+.form-group3
+{
+
+padding: 0px 30px 10px 30px;
+}
+.form-group4 a
+{
+color:grey;
+padding: 0px 50px 40px 30px;
+font-weight:500
+}
+.empty{
+padding: 20px 30px 0px 30px;
+font-weight:500
+color:grey
+}
+.facebook-login {
+padding: 20px 30px 5px 30px;
+
+}
+.google-login {
+padding: 5px 30px 10px 30px;
+
+}
+.google-login img{
+width:20px;
+background-color:white;
+} 
+.epam-login {
+padding: 20px 30px 60px 30px;
+
+}
+.form-control 
+{
+
+font-weight:700
+
+}
+.close {
+    color: #fff; 
+    opacity: 1;
+
+}
+.form-group i{
+position:absolute;
+color:gray;
+padding:10px;
+
+left:830px;
+}
+.form-group2 i{
+color:gray;
+position:absolute;
+left:830px;
+padding :10px;
+}
+.header i{
+left:475px;
+padding:7px;
+position:absolute;
+ color: #fff; 
+    opacity: 1;
+}
+</style>
+</head>
+<body>
+<div class="task">
+    
+    <form action="" method="post" onsubmit="">
+
+        <div class="header">
+<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+<Strong>Epam Sign in</Strong> 
+    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" class="modal_button">&times;</span><span class="sr-only">Close</span></button>
+</div>
+        <div class="form-group">
+            
+           	<i class="fa fa-envelope icon"> 
+			</i> 
+   
+
+            <input type="email" class="form-control" id="inputEmail" placeholder="mail@example.com" required>
+  
+        </div>
+    <div class="form-group2">
+            <i class="fa fa-lock icon"></i>
+            <input type="password" class="form-control" id="inputPassword" placeholder="password" required>
+        </div>
+ <div class="form-group3">
+            
+            <button type="button" class="btn btn-info btn-block" ><b>SIGN IN</b></button>
+        </div>
+ <div class="form-group4">
+            
+           <a href="">Forgot your password?</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="">Register!</a>
+        </div>
+        <div class="empty">
+      <table><tr><td style='width:50%'><hr/></td><td style='color:gray'>OR</td><td style='width:50%'><hr/></td></tr></table>
+
+</div>
+
+    <div class="facebook-login">
+ 
+<button type="button" class="btn btn-primary btn-block"><i class="fa fa-facebook"></i></button>
+  </div>
+
+<div class="google-login">
+<button type="button" class="btn btn-danger btn-block"><i class="fa fa-google"></i></button>
+</div>
+
+
+<div class="epam-login">
+<button type="button" class="btn btn-success btn-block"><strong>< EPAM LOGIN ></strong></button>
+</div>
+    </form>
+</div>
+</body>
+</html>       
